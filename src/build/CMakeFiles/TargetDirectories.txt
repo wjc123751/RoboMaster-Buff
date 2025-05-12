@@ -1,0 +1,4 @@
+/home/climber/climber_buffR/src/build/CMakeFiles/rebuild_cache.dir
+/home/climber/climber_buffR/src/build/CMakeFiles/edit_cache.dir
+/home/climber/climber_buffR/src/build/CMakeFiles/myplugins.dir
+/home/climber/climber_buffR/src/build/CMakeFiles/buffR.dir
