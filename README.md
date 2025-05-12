@@ -22,17 +22,6 @@
 - **通信协议**：UDP协议传输控制指令（20ms周期）  
 - **安全机制**：射击禁区检测与过热保护
 
-## 🛠️ 技术架构
-```mermaid
-graph TD
-    A[USB3.0相机] --> B{YOLOv5-TensorRT检测}
-    B --> C[PnP位姿解算]
-    C --> D[卡尔曼轨迹预测]
-    D --> E[弹道补偿计算]
-    E --> F[云台控制指令]
-    F --> G[STM32主控]
-    H[IMU数据] --> D
-
 # RoboMaster 机甲大师大符自动击打系统
 ![RoboMaster](https://img.shields.io/badge/RoboMaster-ICRA_AI_Challenge-red) 
 ![TensorRT](https://img.shields.io/badge/Inference-TensorRT-76B900) 
