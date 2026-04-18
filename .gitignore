@@ -1,0 +1,29 @@
+# 编译输出目录，彻底屏蔽build
+build/
+cmake-build-*/
+
+# CMake 自动生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.cmake
+
+# 编译二进制、中间文件
+# *.exe
+*.dll
+*.obj
+*.o
+*.lib
+
+# Qt 自动生成代码
+moc_*.cpp
+ui_*.h
+
+# VSCode 本地调试配置
+.vscode/
+
+# 系统缓存、日志
+*.log
+.cache
