@@ -40,7 +40,7 @@ cd RoboMaster-Buff
 │  ├─calculation
 │  ├─HK_camera
 │  ├─include
-│  │  ├─my
+│  │  ├─ex_device
 │  │  └─yolo
 │  ├─usart
 │  └─yolo

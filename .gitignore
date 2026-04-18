@@ -22,7 +22,7 @@ moc_*.cpp
 ui_*.h
 
 # VSCode 本地调试配置
-.vscode/
+.vscode
 
 # 系统缓存、日志
 *.log
